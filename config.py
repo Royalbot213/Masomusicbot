@@ -35,15 +35,15 @@ API_KEY = getenv("API_KEY", None) # youtube song api key, get it from https://t.
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Royalsongmusic/QueenXmusic",
+    "https://github.com/Royalbot213/Masomusicbot",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/The_Untouchables_Network")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/yaaronkimehfi")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+BQLv8g4UgVtmMTI1")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+69GrnjHAAjNjOWI1")
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", True)
@@ -86,10 +86,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/giup1s.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/296e97.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/giup1s.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/296e97.jpg"
 )
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
 STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
